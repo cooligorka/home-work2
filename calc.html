@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>   
+		<title>Главная</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+	</head>
+	<body>        
+        <header>
+            <img src="./images/logo.png" alt="picture" class="logo"/>
+            <h1>Технологии Front End</h1>            
+        </header>            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li>
+                        <a href="tecnologies.html">Технологии</a>
+                        <ul class="second-ul">
+                            <li><a href="html.html">HTML</a></li>
+                            <li><a href="css.html">CSS</a></li>
+                            <li><a href="bootstrap.html">Bootstrap</a></li>
+                        </ul> 
+                    </li>   
+                    <li><a href="calc.html">Калькулятор</a></li>
+                    <li><a href="test.html">Тест</a></li>
+                </ul>
+            </nav>
+        <div class="main">
+        <div class="main-calc">       
+            <form name="calc">
+                <table>
+                    <tr>
+                        <td colspan="5">
+                            <input name="res" type="text" class="text-area">
+                        </td>                      
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" value="7">
+                        </td>
+                        <td>
+                            <input type="button" value="8">
+                        </td>
+                        <td>
+                            <input type="button" value="9">
+                        </td>
+                        <td>
+                            <input type="button" value="/">
+                        </td>    
+                      <td>
+                            <input type="reset" value="C">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" value="4">
+                        </td>
+                        <td>
+                            <input type="button" value="5">
+                        </td>
+                        <td>
+                            <input type="button" value="6">
+                        </td>
+                        <td>
+                            <input type="button" value="*">
+                        </td>
+                        <td>
+                            <input type="button" value="&#177;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" value="1">
+                        </td>
+                        <td>
+                            <input type="button" value="2">
+                        </td>
+                        <td>
+                            <input type="button" value="3">
+                        </td>
+                        <td>
+                            <input type="button" value="-">
+                        </td>
+                        <td rowspan="2">
+                            <input type="button" value="=">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="button" value="0">
+                        </td>                    
+                        <td>
+                            <input type="button" value=".">
+                        </td>
+                        <td>
+                            <input type="button" value="+">
+                        </td>                        
+                    </tr>
+                </table>   
+            </form>
+        </div>
+        </div>
+        <footer>
+            <address><a href="mailto:sent@to.ua">Пишите: sent@to.ua</a></address>
+            &copy; Пикалов И.А., 1970 г.
+        </footer>      
+	</body>
+</html>
